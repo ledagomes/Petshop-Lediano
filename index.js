@@ -1,8 +1,9 @@
 const nomePetshop = "PETSHOP LEDA";
 const moment = require('moment');
-const todos_pets = require ('./todosPets.json')
+const todosPets = require ('./todosPets.json')
+let pets = todosPets.pets;
 
-let pets = [
+/*let pets = [
     {
         nome: 'Billy',
         tipo: 'cão',
@@ -39,7 +40,7 @@ let pets = [
         servicos: ['banho', 'pedicure']
     }
 
-];
+];*/
 
 const incluirPet = () => {
     pets.push({
